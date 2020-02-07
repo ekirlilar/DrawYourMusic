@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-image: url(../images/puzzle2.jpg);
+  background-repeat: no-repeat;
+  background-color: white;
+  color: #FFF;
+  font-family: 'Luckiest Guy', sans-serif;
+  font-size: 20px;
+}
+
+
+.hidden{
+
+  display: none;
+}
+
+
+
+
+.drawingPaper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  margin:0 auto;
+  width:0px;
+  height: 35%;
+  margin-top: 50px;
+}
+
+.drop-zone {
+  width: 49.5%;
+  height: 49.5%;
+  /* border: thin dashed white; */
+  float: left;
+  position: relative;
+}
+
+.tl, .bl { text-align: right; }
+.tr img { bottom: 0 }
+.tl img { bottom: 0; right: 0 }
+.bl img { right: 0 }
+
+.drop-zone img {
+  width: auto !important;
+  padding: 0 !important;
+  cursor: default;
+  position: absolute;
+}
+
+#drawingArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 850px;
+  margin-left: -180px;
+}
+
+#whitePaper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  background-repeat: no-repeat;
+  width:488px;
+  height: 600px;
+  background-image: url(../images/.......jpg); 
+}
